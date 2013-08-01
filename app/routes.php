@@ -14,3 +14,5 @@
 Route::get('/', 'HomeController@showWelcome');
 
 Route::resource('game','GameController');
+
+Route::resource('game_customers', 'Game_customersController');
